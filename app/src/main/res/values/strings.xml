@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name" translatable="false">Little Assistant</string>
+    <string name="action_settings">Settings</string>
+    <string name="sectionOne">Tasks</string>
+    <string name="sectionTwo">Map</string>
+    <string name="sectionThree">Assistant</string>
+    <string name="teamNumberHint">Enter team number (1-8)</string>
+    <string name="errorTeamNumber">Number should be from 1 to 8!</string>
+    <string name="start">Start</string>
+    <string name="copyright" translatable="false">Made by Shadowagent (Daniel Dhawan, 521)</string>
+
+    <!--Scanner activity-->
+    <string name="title_activity_scan">Analyzer</string>
+    <string name="dialogNFCTitle">NFC required</string>
+    <string name="dialogNFCNotEnabled">NFC is required to run this app. \nPlease enable NFC in Settings and restart the application.</string>
+    <string name="dialogNoNFC">NFC is required to run this app. \nSorry, but it seems that your device does not have a NFC module.</string>
+    <string name="dialogScanTitle">Analysis completed</string>
+
+    <!--Assistant activity-->
+    <string name="assistantName" translatable="false">Jarvis</string>
+    <string name="sendMessage">Send</string>
+    <string name="editTextHint">Enter your query...</string>
+</resources>

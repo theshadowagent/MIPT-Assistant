@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Настройки</string>
+    <string name="sectionOne">Задания</string>
+    <string name="sectionThree">Ассистент</string>
+    <string name="sectionTwo">Карта</string>
+    <string name="title_activity_scan">Анализатор</string>
+    <string name="dialogNFCTitle">Требуется NFC</string>
+    <string name="dialogScanTitle">Анализ завершен</string>
+    <string name="dialogNFCNotEnabled">Для корректной работы приложения требуется NFC. \nПожалуйста, включите NFC в Настройках и перезапустите приложение.</string>
+    <string name="dialogNoNFC">Для корректной работы приложения требуется NFC. \nПохоже, что в вашем устройстве нет NFC модуля.</string>
+    <string name="sendMessage">Отправить</string>
+    <string name="editTextHint">Введите запрос...</string>
+    <string name="teamNumberHint">Введите номер команды (1-8)</string>
+    <string name="errorTeamNumber">Введенный номер должен быть от 1 до 8!</string>
+</resources>

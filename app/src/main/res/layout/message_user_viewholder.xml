@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="50dp"
+    android:paddingStart="50dp"
+    android:clipToPadding="false">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chat_bubble"
+        android:background="@drawable/user_chat_bubble"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/message"
+            android:text="Hello"
+            android:textColor="@color/colorAccent"
+            android:textSize="17sp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/time"
+        android:text="14:30"
+        android:textColor="@color/colorAccent"
+        android:layout_toLeftOf="@+id/chat_bubble"
+        android:layout_alignBottom="@+id/chat_bubble"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="end"/>
+
+</RelativeLayout>

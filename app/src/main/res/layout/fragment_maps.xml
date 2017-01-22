@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dgapmipt.pda.MapsFragment">
+
+
+        <dgapmipt.pda.TouchImageView
+            android:id="@+id/mapImage"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:src="@drawable/map"
+            android:scaleType="centerCrop" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginStart="@dimen/fab_margin"
+        app:backgroundTint="@color/primary_material_dark"
+        android:src="@drawable/ic_add_black_24dp"
+        android:tint="@color/colorAccent"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/fabMinus" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabMinus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="@color/primary_material_dark"
+        android:src="@drawable/ic_remove_black_24dp"
+        android:tint="@color/colorAccent"
+        android:layout_alignParentLeft="true" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="@color/primary_material_dark"
+        android:src="@drawable/ic_filter_center_focus_white_24dp"
+        android:tint="@color/colorAccent"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>
