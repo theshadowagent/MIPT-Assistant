@@ -1,2 +1,2 @@
 # MIPT Little Assistant
-This app was made for competitions at the Department of General and Applied Physics of MIPT student initiation. The main features are NFC-reading, QR-code scanning and a "contest assistant" called Jarvis which provides participants with contest info and results.
+This Android app was made for competitions at the Department of General and Applied Physics of MIPT student initiation. The main features are NFC tag reading and displaying specified info when reading a corresponding tag, QR-code scanning to finish the contest, map of contests and a "contest chat assistant" called Jarvis which provides participants with contest info and results.
